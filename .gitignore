@@ -1,0 +1,13 @@
+# OS固有のファイル（Mac）
+.DS_Store
+
+# エディタやIDEの設定ファイル
+.vscode/
+.idea/
+
+# Node.js プロジェクトなら（依存関係）
+node_modules/
+
+# ビルド・出力ファイル（静的サイトジェネレータ等を使う場合）
+dist/
+build/
