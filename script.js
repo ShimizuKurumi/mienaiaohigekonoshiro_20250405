@@ -206,6 +206,22 @@ $(document).ready(function () {
     // マウスが乗った時の処理
     $('#stalker').removeClass('active');
   });
+
+  $('.p-banner__link').hover(
+    function () {
+      // マウスが乗った時の処理
+      $('#stalker').addClass('active');
+    },
+    function () {
+      // マウスが離れた時の処理
+      $('#stalker').removeClass('active');
+    }
+  );
+
+  $('.p-banner__link').click(function () {
+    // マウスが乗った時の処理
+    $('#stalker').removeClass('active');
+  });
 });
 
 $(document).ready(function () {
